@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+
+<TextView
+    android:id="@+id/area_name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Choose your region"
+    android:text=""
+    android:textColorHint="#000000" />
+ 
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" >
+
+<ImageView
+    android:id="@+id/cond_img"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_launcher" 
+    android:layout_marginLeft="10dp">
+
+ </ImageView>
+
+ <TextView
+     android:id="@+id/txttemp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textStyle="bold"
+     android:textSize="50sp"
+     android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+     android:text=""
+     android:textColorHint="#000000"
+     android:textColor="#000000" />
+
+ </RelativeLayout>
+ <TextView
+     android:id="@+id/txtcond"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textStyle="italic"
+     android:textSize="18sp"
+     android:text="" 
+     android:gravity="center|center_vertical"/>
+ 
+  <Spinner
+	    android:id="@+id/spinner_crops"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:drawSelectorOnTop="true"
+	    android:layout_marginTop="20dp"
+	    android:prompt="@string/prompt3"
+	    >
+   </Spinner>
+   
+  <ScrollView 
+      android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_marginTop="10dp">
+ <LinearLayout 
+     android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:orientation="vertical" >
+      
+   <Button
+	    android:id="@+id/btn_mp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    Market Price"  
+	    android:drawableLeft="@drawable/market"
+        android:gravity="left|center_vertical"   >
+	</Button>
+	
+   <Button
+	    android:id="@+id/btn_ins"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    Insecticides"  
+	    android:drawableLeft="@drawable/insect"
+        android:gravity="left|center_vertical"  >
+	</Button>
+	
+   <Button
+	    android:id="@+id/btn_dis"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    Diseases"  
+	    android:drawableLeft="@drawable/diseases"
+        android:gravity="left|center_vertical" >
+	</Button>
+	
+   <Button
+	    android:id="@+id/btn_seed"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    Seeds"  
+	    android:drawableLeft="@drawable/seed"
+        android:gravity="left|center_vertical" >
+	</Button>
+	
+   <Button
+	    android:id="@+id/btn_fertilizer"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    Fertilizers"  
+	    android:drawableLeft="@drawable/fertilizer2"
+        android:gravity="left|center_vertical" >
+	</Button>
+	
+   <Button
+	    android:id="@+id/btn_frm"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    Farm Machinery"  
+	    android:drawableLeft="@drawable/farm"
+        android:gravity="left|center_vertical" >
+	</Button>
+	
+   <Button
+	    android:id="@+id/btn_soil_info"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    Soil Information"  
+	    android:drawableLeft="@drawable/soil_type"
+        android:gravity="left|center_vertical" >
+	</Button>
+	
+   
+	
+   <Button
+	    android:id="@+id/btn_frm_info"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    Farmer's Info"  
+	    android:drawableLeft="@drawable/farmer_icon"
+        android:gravity="left|center_vertical" >
+	</Button>
+	
+    <Button
+	    android:id="@+id/btn_best_frm"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    Profile of Best Farmer"  
+	    android:drawableLeft="@drawable/profile"
+        android:gravity="left|center_vertical" >
+	</Button>
+	
+     <Button
+	    android:id="@+id/btn_about_us"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	
+	    android:layout_marginTop="10dp"       
+	    android:text="    About Us"  
+	    android:drawableLeft="@drawable/about_us"
+        android:gravity="left|center_vertical" >
+	</Button>
+	
+	</LinearLayout>
+      
+  </ScrollView>
+ 
+  
+</LinearLayout>

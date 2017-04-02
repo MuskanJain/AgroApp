@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/custom_dropdown.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/custom_dropdown.xml"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/insect.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/insect.xml"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/weather_page.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/weather_page.xml"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/farm.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/farm.xml"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/start.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/start.xml"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/soil.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/soil.xml"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/about_us.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/about_us.xml"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/farmer_info.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/farmer_info.xml"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/best_farmer.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/best_farmer.xml"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/layout/activity_main.xml"
+    }
+]

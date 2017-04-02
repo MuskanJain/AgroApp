@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/drawable-xhdpi/seed.png",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/drawable-xhdpi/seed.png"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile.png",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/drawable-xhdpi/profile.png"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/drawable-xhdpi/market.png",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/drawable-xhdpi/market.png"
+    },
+    {
+        "merged": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/build/intermediates/res/merged/debug/drawable-xhdpi/farm.png",
+        "source": "/home/muskan/AndroidStudioProjects/new/autocomplete/app/src/main/res/drawable-xhdpi/farm.png"
+    }
+]
