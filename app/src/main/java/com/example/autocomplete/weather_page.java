@@ -4,6 +4,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
+import java.net.HttpURLConnection;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URLEncoder;
@@ -208,7 +209,7 @@ public class weather_page extends Activity {
 	public Bitmap getBitmap(String url) {    //pass the complete URL of the web service query
 		        Bitmap bmp = null;
 		        try {
-		            HttpClient client = new DefaultHttpClient();
+		            HttpURLConnection client = new DefaultHttpClient();
 		            URI imageURI = new URI(url);
 		            HttpGet req = new HttpGet();
 		            req.setURI(imageURI);
